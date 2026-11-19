@@ -51,9 +51,23 @@ the every-session load drops from 3,224 to 174 tokens and nothing is deleted.
 **[Downloads organiser](file-organisation/downloads-organiser/)**: sorts a messy Downloads
 folder by filename rules. Dry run by default, never deletes, and one command undoes a run.
 
+**[Agent memory that survives day 40](agent-ops/agent-memory/)**: a small live memory file
+plus monthly archives, with a script that rolls old entries over at a size cap. In the example, 40 days
+of memory goes from ~3,658 to ~1,179 tokens per session with nothing lost.
+
+**[Session handover](agent-ops/session-handover/)**: a skill that ends each session with a short,
+specific status file and saves lasting decisions to memory, so the next session starts by reading
+about 20 lines instead of the whole project.
+
+**[Which model for which job](operator-templates/model-choice/)**: a one-page guide to matching
+tasks to model tiers (the small tier costs a twentieth of the mid tier and a fortieth of the large), plus a 20-minute
+test to check whether a cheaper model is good enough for your work.
+
+**[Prioritisation matrix](operator-templates/prioritisation-matrix/)**: decide which AI project
+goes first. Gates knock out dealbreakers, anchored 1–5 scores keep people consistent, and a robustness check
+tells you whether the winner survives different weights. Spreadsheet, script and skill.
+
 ## Coming next
-- **Agent memory that survives day 40** — live vs archive files, rollover at a size cap, read-first rules
-- **Weighted prioritisation matrix** — decide which AI project goes first, with a scoring skill
 - **AI project brief template** — the brief you write before you open a tool
 
 New item every few days. Watch the repo to catch them.

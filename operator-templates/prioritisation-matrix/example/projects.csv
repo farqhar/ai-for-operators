@@ -1,0 +1,7 @@
+project,owner,gates_passed,confidence,value,frequency,ai_fit,data_ready,low_risk,easy_build,champion,notes
+Weekly store report drafts,Ops lead,yes,high,4,3,5,5,4,5,5,Numbers already in one export; ops lead rewrites it every Monday
+Supplier invoice data entry,Finance admin,yes,medium,4,5,4,3,3,3,4,~60 invoices a week; three suppliers send scanned PDFs
+Review reply drafts,Marketing,yes,high,2,4,5,5,3,5,3,Replies go public so someone must approve each one
+Staff roster generation,Store managers,yes,low,5,3,2,3,2,2,4,Huge time sink but rules live in managers' heads
+Barista training Q&A bot,Training lead,yes,medium,3,3,4,2,4,3,2,Training manual is a 2019 PDF; lead is on leave until March
+Auto-approve refund requests,,no,medium,5,5,4,5,1,4,3,Fails the gates: nobody accountable for wrong refunds

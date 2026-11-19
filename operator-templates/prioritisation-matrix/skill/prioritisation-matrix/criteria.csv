@@ -1,0 +1,8 @@
+key,criterion,weight,asks,score_1,score_3,score_5
+value,Value,25,Time or money it saves (or earns) if it works,Under an hour a week or trivial cost,A few hours a week or a noticeable cost,A day or more a week or directly affects revenue
+frequency,Frequency,15,How often the task happens,Quarterly or less,Weekly,Daily or many times a day
+ai_fit,AI fit,15,How well the task suits today's AI,"Needs facts it can't check, precise maths or physical action",A mix of judgement and checkable rules,"Text-heavy, pattern-based, a draft a person reviews"
+data_ready,Data ready,10,Are the inputs available and reachable,"Scattered, on paper or locked away",Exists but needs exporting or cleaning,Digital and reachable today
+low_risk,Low risk if wrong,15,What happens when it gets something wrong,"Mistakes reach customers, money or legal unchecked",Mistakes are caught by a review step,Mistakes are cheap and obvious
+easy_build,Easy to build,10,Effort to get a working version,"Needs engineers, integrations, months","A few weeks with a no-code tool (n8n, Make) or a skill",Works with a prompt or skill this week
+champion,Committed owner,10,Someone who wants it and will keep it running,Nobody,Interested but stretched,"Named owner with time, asking for it"

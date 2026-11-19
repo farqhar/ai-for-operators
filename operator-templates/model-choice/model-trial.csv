@@ -1,0 +1,8 @@
+task,example,usual_model,trial_model,effort,send_with_light_edits,notes
+Weekly store report,Week 1 numbers,Large,Mid,medium,yes,Identical table; slightly flatter intro
+Weekly store report,Week 2 numbers,Large,Mid,medium,yes,
+Weekly store report,Week 3 (store 3 export broken),Large,Mid,medium,no,Missed the double-counted dates; Large caught it
+Weekly store report,Week 4 numbers,Large,Mid,medium,yes,
+Weekly store report,Week 5 numbers,Large,Mid,medium,yes,
+Email triage,Monday inbox (40 emails),Mid,Small,low,yes,1 of 40 mislabelled (refund marked as question)
+,,,,,,

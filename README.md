@@ -63,8 +63,11 @@ about 20 lines instead of the whole project.
 tasks to model tiers (the small tier costs a twentieth of the mid tier and a fortieth of the large), plus a 20-minute
 test to check whether a cheaper model is good enough for your work.
 
+**[Prioritisation matrix](operator-templates/prioritisation-matrix/)**: decide which AI project
+goes first. Gates knock out dealbreakers, anchored 1–5 scores keep people consistent, and a robustness check
+tells you whether the winner survives different weights. Spreadsheet, script and skill.
+
 ## Coming next
-- **Weighted prioritisation matrix** — decide which AI project goes first, with a scoring skill
 - **AI project brief template** — the brief you write before you open a tool
 
 New item every few days. Watch the repo to catch them.

@@ -59,7 +59,7 @@ folder by filename rules. Dry run by default, never deletes, and one command und
 New item every few days. Watch the repo to catch them.
 
 ## Demo
-_Demo GIF lands with the first item._
+![The context audit run on a messy project, then on the same project reorganised: tokens loaded every session drop from 3,224 to 174](context-kit/demo.gif)
 
 ## Licence
 Code is MIT. Documentation, skills and templates are CC BY 4.0 — use and adapt freely, with credit.# ai-for-operators

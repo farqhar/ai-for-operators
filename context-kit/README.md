@@ -2,6 +2,8 @@
 
 **Most AI cost is the stuff the agent reads, not the question you ask.**
 
+![The context audit run on a messy project, then on the same project reorganised](demo.gif)
+
 Every session, an agent like Claude Code loads your `CLAUDE.md`, then opens whatever
 files it thinks it needs. You pay for those tokens every time. A 400-line instruction file, a log
 someone left in the project folder, last quarter's export: none of them help, and you pay for them on

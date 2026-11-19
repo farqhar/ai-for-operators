@@ -1,0 +1,35 @@
+{
+  "downloads": "~/Downloads",
+  "inbox": "00-Inbox",
+  "quarantine": "99-Quarantine",
+
+  "rules": [
+    { "match": ["Acme", "Northwind", "Bluebird", "Harbour Cafe"], "to": "01-Clients/{match}" },
+
+    { "match": ["invoice", "receipt"],         "to": "02-Finance/Invoices" },
+    { "match": ["statement"],                  "to": "02-Finance/Statements" },
+    { "match": ["contract", "agreement", "SOW"], "to": "02-Finance/Contracts" },
+    { "match": ["budget", "forecast"],         "to": "02-Finance/Budgets" },
+
+    { "ext": [".ttf", ".otf", ".woff", ".woff2"], "to": "03-Design-Assets/Fonts" },
+    { "match": ["mockup"],                     "to": "03-Design-Assets/Mockups" },
+    { "match": ["logo", "brand"],              "to": "03-Design-Assets/Brand" },
+    { "ext": [".fig", ".sketch", ".psd", ".ai", ".svg"], "to": "03-Design-Assets/Artwork" },
+
+    { "match": ["CV", "resume"],               "to": "04-Personal/CVs" },
+    { "ext": [".heic", ".jpg", ".jpeg"],       "to": "04-Personal/Photos" },
+
+    { "ext": [".sql"],                         "to": "05-Dev/sql" },
+    { "ext": [".py", ".sh", ".js", ".ts"],     "to": "05-Dev/scripts" },
+    { "ext": [".csv", ".json", ".xlsx"],       "to": "05-Dev/data" },
+
+    { "match": ["BUS101", "MKT205"],           "to": "06-Study/{match}" }
+  ],
+
+  "secrets_to": "05-Dev/secrets",
+  "secret_patterns": [
+    "client_secret*.json", "*.pem", "*.key", "*.p12", "id_rsa*", "*recovery*codes*", ".env*"
+  ],
+
+  "junk_ext": [".dmg", ".pkg", ".crdownload", ".part", ".download"]
+}

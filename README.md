@@ -21,10 +21,35 @@ Most AI material is either a demo or a framework. The hard part sits in between:
 ## Structure
 ```
 ai-for-operators/
+├── context-kit/          # spend fewer credits: audit, lean project layout, skill
+├── file-organisation/    # keep files findable by people and agents
 ├── agent-ops/            # patterns for long-running agents
 ├── operator-templates/   # briefs, prioritisation, stage-gates
 └── adoption/             # how non-technical teams take AI up
 ```
+
+## Available now
+
+**[Context kit](context-kit/)**: most AI cost is what the agent reads, not what you ask. One
+command shows where your tokens go:
+
+```
+$ python3 context-audit.py my-project
+
+  Loaded every session         3,224 tokens
+  Reachable by the agent      29,384 tokens
+  Blocked by deny rules            0 tokens
+
+Suggestions:
+  - CLAUDE.md is loaded every session and is ~3,224 tokens. Aim for under 1,500...
+  - pos-sync.log looks like a data dump (~14,784 tokens). Keep a short sample...
+```
+
+Includes a project scaffold and a Claude skill that applies the fixes. In the worked example,
+the every-session load drops from 3,224 to 174 tokens and nothing is deleted.
+
+**[Downloads organiser](file-organisation/downloads-organiser/)**: sorts a messy Downloads
+folder by filename rules. Dry run by default, never deletes, and one command undoes a run.
 
 ## Coming next
 - **Agent memory that survives day 40** — live vs archive files, rollover at a size cap, read-first rules

@@ -67,10 +67,21 @@ test to check whether a cheaper model is good enough for your work.
 goes first. Gates knock out dealbreakers, anchored 1–5 scores keep people consistent, and a robustness check
 tells you whether the winner survives different weights. Spreadsheet, script and skill.
 
-## Coming next
-- **AI project brief template** — the brief you write before you open a tool
+**[Project brief](operator-templates/project-brief/)**: the one-page brief you write before you
+open a tool, covering the baseline, a measurable "done", boundaries and a stop rule. Includes a checker that flags
+the gaps that sink AI projects, and a skill that interviews you to fill it in.
 
-New item every few days. Watch the repo to catch them.
+## Where to start
+
+Starting an AI project from scratch? The items fit together in this order:
+
+1. **[Prioritisation matrix](operator-templates/prioritisation-matrix/):** pick the project
+2. **[Project brief](operator-templates/project-brief/):** pin down what done means
+3. **[Which model for which job](operator-templates/model-choice/):** pick the cheapest model that does the job
+4. **[Context kit](context-kit/):** set up the folder so the agent reads only what it needs
+5. **[Session handover](agent-ops/session-handover/)** and **[agent memory](agent-ops/agent-memory/):** keep it on track for weeks
+
+Each item also works on its own. New items land as they're ready; watch the repo to catch them.
 
 ## Demo
 ![The context audit run on a messy project, then on the same project reorganised: tokens loaded every session drop from 3,224 to 174](context-kit/demo.gif)
